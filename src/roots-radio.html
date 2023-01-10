@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://www.radio.fr/inc/microsite/css/radio-emb.css" />
+        <link rel="stylesheet" type="text/css" href="radios.css" />
+        <script src="https://www.radio.fr/inc/microsite/js/full.js"></script>
+        <script src="radios.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Mes radios</h1>
+        </div>
+        <div class="container">
+            <div class="ng-app-embedded">
+                <h2>Roots Legacy</h2>
+                <div ui-view class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="rootslegacy"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+                <noscript>
+                    <a href="https://www.radio.fr/s/rootslegacy" target="_blank">Roots Legacy Radio sur radio.fr</a>
+                </noscript>
+            </div>
+
+            <hr>
+            
+            <div class="ng-app-embedded" style="height: 50%;">
+                <h2>SOUL RADIO</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="soul-radio-only-classic-soul"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+                <noscript>
+                    <a href="https://www.radio.fr/s/soul-radio-only-classic-soul" target="_blank">SOUL RADIO Only Classic Soul sur radio.fr</a>
+                </noscript>
+            </div>
+        </div>
+
+    </body>
+</html>

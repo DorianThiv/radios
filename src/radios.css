@@ -1,0 +1,20 @@
+html, body {
+    height: calc(100% - 8px);
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 50px);
+    padding: 0 20%;
+}
+
+.ng-app-embedded {
+    height: 180px;
+    text-align: center;
+}
