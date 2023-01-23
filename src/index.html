@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>Mes radios</title>
+        <title>Radios oldies</title>
         <link rel="stylesheet" type="text/css" href="https://www.radio.fr/inc/microsite/css/radio-emb.css" />
         <link rel="stylesheet" type="text/css" href="radios.css" />
         <script src="full.js"></script>
@@ -9,10 +9,11 @@
     <body onload="load()">
 
         <div>
-            <h1>Mes radios</h1>
+            <h1>Radios oldies</h1>
         </div>
         
         <div class="container">
+            
             <div class="ng-app-embedded">
                 <h2>Roots Legacy</h2>
                 <div ui-view class="microsite embedded-radio-player"
@@ -41,6 +42,82 @@
                     <a href="https://www.radio.fr/s/soul-radio-only-classic-soul" target="_blank">SOUL RADIO Only Classic Soul sur radio.fr</a>
                 </noscript>
             </div>
+
+            <div class="ng-app-embedded">
+                <h2>Jazz Radio</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="jazz"
+                    data-autoplay="true"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+            </div>
+            <noscript>
+                <a href="https://www.radio.fr/s/jazz" target="_blank">Jazz sur radio.fr</a>
+            </noscript>
+
+            <div class="ng-app-embedded">
+                <h2>Soul One</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="soul-one"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+            </div>
+            <noscript>
+                <a href="https://www.radio.fr/s/soul-one" target="_blank">Soul One sur radio.fr</a>
+            </noscript>
+
+            <div class="ng-app-embedded">
+                <h2>Vintage Radio</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="vintageradio"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+            </div>
+            <noscript>
+                <a href="https://www.radio.fr/s/vintageradio" target="_blank">Vintage Radio sur radio.fr</a>
+            </noscript>
+
+            <div class="ng-app-embedded">
+                <h2>M Radio</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="mradioannees60et70"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+            </div>
+            <noscript>
+                <a href="https://www.radio.fr/s/mradioannees60et70" target="_blank">M Radio - Années 60 et 70 sur radio.fr</a>
+            </noscript>
+
+            <div class="ng-app-embedded">
+                <h2>KCEA 89.1 FM</h2>
+                <div ui-view
+                    class="microsite embedded-radio-player"
+                    data-playerwidth="100%"
+                    data-playertype="web_embedded"
+                    data-playstation="kcea"
+                    data-autoplay="false"
+                    data-apikey="df04ff67dd3339a6fc19c9b8be164d5b5245ae93">
+                </div>
+            </div>
+            <noscript>
+                <a href="https://www.radio.fr/s/kcea" target="_blank">KCEA 89.1 FM sur radio.fr</a>
+            </noscript>
+    
         </div>
 
     </body>
